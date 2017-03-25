@@ -135,7 +135,7 @@ TW_MAX_BRIGHTNESS := 255
 TW_NO_REBOOT_BOOTLOADER := true
 TW_THEME := portrait_hdpi
 else
-TARGET_RECOVERY_FSTAB := TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 endif
 
 # RIL
