@@ -124,7 +124,7 @@ RECOVERY_SDCARD_ON_DATA := true
 
 # TWRP specific
 ifeq ($(RECOVERY_VARIANT),twrp)
-TARGET_RECOVERY_FSTAB := device/samsung/jflte/twrprecovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/jfltexx/twrprecovery.fstab
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/msm_fb.526593/leds/lcd-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 180
 TW_EXCLUDE_SUPERSU := true
